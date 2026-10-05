@@ -1,0 +1,127 @@
+<!doctype html>
+<html lang="id">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#0f766e">
+<meta name="description" content="Website resmi MI Fitrah Insani Leles — Religius, Educatif, Ilmiah.">
+<title>MI Fitrah Insani | Religius, Educatif, Ilmiah</title>
+<style>
+:root{--primary:#0f766e;--primary2:#115e59;--gold:#d4a72c;--ink:#17312f;--muted:#64748b;--bg:#f7faf9;--white:#fff;--line:#e5ecea;--shadow:0 14px 40px rgba(15,118,110,.10)}
+*{box-sizing:border-box;scroll-behavior:smooth}body{margin:0;font-family:Inter,system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif;color:var(--ink);background:var(--bg);line-height:1.65}a{text-decoration:none;color:inherit}.container{width:min(1120px,92%);margin:auto}
+header{position:sticky;top:0;z-index:50;background:rgba(255,255,255,.94);backdrop-filter:blur(12px);border-bottom:1px solid var(--line)}
+.nav{height:72px;display:flex;align-items:center;justify-content:space-between;gap:20px}.brand{display:flex;align-items:center;gap:12px;font-weight:800}.brand-mark{width:44px;height:44px;border-radius:14px;background:linear-gradient(135deg,var(--primary),#34a58f);color:#fff;display:grid;place-items:center;font-size:20px;box-shadow:var(--shadow)}.brand small{display:block;color:var(--muted);font-weight:600;font-size:11px;letter-spacing:.08em}.menu{display:flex;gap:4px;align-items:center}.menu a{padding:9px 11px;border-radius:10px;font-size:13px;font-weight:700}.menu a:hover{background:#eaf7f4;color:var(--primary)}.hamb{display:none;border:0;background:#eaf7f4;color:var(--primary);font-size:22px;border-radius:10px;padding:7px 11px}
+.hero{position:relative;overflow:hidden;padding:86px 0 76px;background:radial-gradient(circle at 90% 10%,#d9f4ee 0,transparent 32%),linear-gradient(135deg,#f2fbf9,#fff)}.hero-grid{display:grid;grid-template-columns:1.15fr .85fr;gap:50px;align-items:center}.eyebrow{display:inline-flex;padding:7px 12px;border-radius:999px;background:#e2f3ef;color:var(--primary2);font-weight:800;font-size:12px}.hero h1{font-size:clamp(38px,5vw,68px);line-height:1.04;margin:18px 0 16px;letter-spacing:-.04em}.hero h1 span{color:var(--primary)}.hero p{font-size:18px;color:#526b68;max-width:650px}.actions{display:flex;gap:12px;flex-wrap:wrap;margin-top:28px}.btn{display:inline-flex;align-items:center;justify-content:center;padding:13px 18px;border-radius:12px;font-weight:800;border:1px solid var(--line)}.btn-primary{background:var(--primary);color:#fff;border-color:var(--primary)}.btn-primary:hover{background:var(--primary2)}.btn-soft{background:#fff}.hero-card{background:#fff;border:1px solid var(--line);border-radius:28px;padding:30px;box-shadow:var(--shadow)}.hero-card .big{font-size:56px;font-weight:900;color:var(--primary);line-height:1}.hero-card h3{margin:8px 0}.hero-card p{font-size:14px}.mini-grid{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin-top:20px}.mini{padding:14px;border-radius:16px;background:#f5faf9;border:1px solid #e3efec}.mini b{display:block;font-size:22px;color:var(--primary)}.mini small{color:var(--muted)}
+section{padding:76px 0}.section-head{display:flex;justify-content:space-between;gap:20px;align-items:end;margin-bottom:30px}.section-head h2{font-size:34px;line-height:1.15;margin:0}.section-head p{max-width:620px;color:var(--muted);margin:0}.grid-3{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}.card{background:#fff;border:1px solid var(--line);border-radius:20px;padding:24px;box-shadow:0 8px 24px rgba(15,118,110,.05)}.icon{width:44px;height:44px;border-radius:13px;display:grid;place-items:center;background:#e7f6f2;color:var(--primary);font-size:20px;margin-bottom:14px}.card h3{margin:0 0 7px}.muted{color:var(--muted)}
+.about{background:#fff}.split{display:grid;grid-template-columns:1fr 1fr;gap:50px;align-items:center}.quote{padding:26px;border-left:4px solid var(--gold);background:#fffaf0;border-radius:0 16px 16px 0;font-weight:700}.visi{background:linear-gradient(135deg,#0f766e,#155e75);color:#fff;border-radius:26px;padding:34px;box-shadow:var(--shadow)}.visi h3{color:#d8f7ee}.visi p{color:#e5f7f4}
+.stats{display:grid;grid-template-columns:repeat(4,1fr);gap:14px}.stat{background:#fff;padding:24px;border:1px solid var(--line);border-radius:18px;text-align:center}.stat b{font-size:30px;color:var(--primary);display:block}.stat span{font-size:13px;color:var(--muted)}
+.teacher{display:flex;gap:16px;align-items:center}.avatar{width:60px;height:60px;border-radius:18px;background:linear-gradient(135deg,#d7f2ed,#eff9f7);display:grid;place-items:center;font-weight:900;color:var(--primary);font-size:20px;flex:none}.teacher h3{font-size:16px;margin:0}.teacher p{margin:2px 0;font-size:13px;color:var(--muted)}
+.gallery{display:grid;grid-template-columns:repeat(4,1fr);gap:14px}.photo{min-height:180px;border-radius:20px;padding:18px;display:flex;align-items:end;color:#fff;font-weight:800;position:relative;overflow:hidden;background:linear-gradient(145deg,#0f766e,#38a890)}.photo:nth-child(2){background:linear-gradient(145deg,#155e75,#38a5b7)}.photo:nth-child(3){background:linear-gradient(145deg,#7c5c18,#d4a72c)}.photo:nth-child(4){background:linear-gradient(145deg,#4f46a5,#8b7ff0)}.photo:after{content:"";position:absolute;inset:0;background:linear-gradient(transparent,rgba(0,0,0,.5))}.photo span{position:relative;z-index:1}
+.news{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}.news .date{font-size:12px;color:var(--primary);font-weight:800}.news h3{font-size:19px}.news p{font-size:14px;color:var(--muted)}
+.ppdb{background:#fff}.ppdb-box{background:linear-gradient(135deg,#0f766e,#115e59);color:#fff;border-radius:28px;padding:42px;display:flex;align-items:center;justify-content:space-between;gap:30px}.ppdb-box p{color:#d8f3ee}.ppdb-box .btn{background:#fff;color:var(--primary);border-color:#fff}
+.downloads{display:grid;grid-template-columns:repeat(2,1fr);gap:14px}.download{display:flex;justify-content:space-between;gap:15px;align-items:center;padding:18px 20px;background:#fff;border:1px solid var(--line);border-radius:16px}.download b{display:block}.download small{color:var(--muted)}.download a{color:var(--primary);font-weight:800}
+.contact{display:grid;grid-template-columns:1fr 1fr;gap:18px}.contact-card{background:#fff;border:1px solid var(--line);border-radius:20px;padding:24px}.contact-row{display:flex;gap:13px;margin:14px 0}.contact-row b{display:block}.contact-row span{color:var(--muted);font-size:14px}
+footer{background:#102f2c;color:#d7ebe8;padding:40px 0 25px}.foot{display:flex;justify-content:space-between;gap:25px;align-items:start}.foot p{color:#9fc1bc;font-size:13px}.social{color:#fff;font-weight:800}.copyright{border-top:1px solid rgba(255,255,255,.12);margin-top:25px;padding-top:18px;font-size:12px;color:#91b2ad}
+@media(max-width:900px){.menu{display:none;position:absolute;left:4%;right:4%;top:72px;background:#fff;padding:12px;border:1px solid var(--line);border-radius:16px;box-shadow:var(--shadow);flex-direction:column;align-items:stretch}.menu.open{display:flex}.hamb{display:block}.hero-grid,.split,.contact{grid-template-columns:1fr}.grid-3,.news{grid-template-columns:1fr 1fr}.gallery{grid-template-columns:1fr 1fr}.stats{grid-template-columns:1fr 1fr}}
+@media(max-width:600px){section{padding:58px 0}.hero{padding:60px 0}.grid-3,.news,.downloads{grid-template-columns:1fr}.gallery{grid-template-columns:1fr 1fr}.gallery .photo{min-height:140px}.ppdb-box{padding:28px;flex-direction:column;align-items:flex-start}.foot{flex-direction:column}.section-head{display:block}.section-head p{margin-top:10px}.hero h1{font-size:42px}}
+</style>
+</head>
+<body>
+<header>
+<div class="container nav">
+<a class="brand" href="#home"><div class="brand-mark">MI</div><div>MI FITRAH INSANI<small>LELES • GARUT</small></div></a>
+<button class="hamb" onclick="document.querySelector('.menu').classList.toggle('open')" aria-label="Menu">☰</button>
+<nav class="menu">
+<a href="#home">Home</a><a href="#profil">Profil</a><a href="#visi-misi">Visi-Misi</a><a href="#guru">Guru & Tendik</a><a href="#siswa">Data Siswa</a><a href="#galeri">Galeri</a><a href="#berita">Berita</a><a href="#ppdb">PPDB</a><a href="#download">Download</a><a href="#kontak">Kontak</a>
+</nav>
+</div>
+</header>
+
+<main id="home">
+<section class="hero">
+<div class="container hero-grid">
+<div>
+<span class="eyebrow">MADRASAH IBTIDAIYAH • LELES • GARUT</span>
+<h1>Mendidik Generasi <span>Religius, Educatif, Ilmiah.</span></h1>
+<p>Selamat datang di website resmi MI Fitrah Insani. Ruang informasi madrasah untuk mengenal profil sekolah, kegiatan, berita, PPDB, dan layanan informasi bagi siswa serta orang tua.</p>
+<div class="actions"><a class="btn btn-primary" href="#profil">Kenal Lebih Dekat →</a><a class="btn btn-soft" href="#ppdb">Info PPDB</a></div>
+</div>
+<div class="hero-card">
+<div class="big">✦</div><h3>MI Fitrah Insani</h3><p>Madrasah yang menumbuhkan akhlak, ilmu, kemandirian, kreativitas, dan prestasi dalam suasana belajar yang positif.</p>
+<div class="mini-grid"><div class="mini"><b>6</b><small>Jenjang Kelas</small></div><div class="mini"><b>∞</b><small>Semangat Belajar</small></div></div>
+</div>
+</div>
+</section>
+
+<section id="profil" class="about">
+<div class="container split">
+<div><span class="eyebrow">PROFIL MADRASAH</span><h2>Tempat Tumbuh, Belajar, dan Berprestasi</h2><p class="muted">MI Fitrah Insani hadir sebagai lembaga pendidikan dasar berciri khas Islam yang mengintegrasikan pembelajaran umum dengan nilai-nilai keislaman dan pembiasaan akhlakul karimah.</p><div class="quote">“Membentuk peserta didik yang beriman, berilmu, berakhlak, mandiri, dan siap meraih prestasi.”</div></div>
+<div class="grid-3"><div class="card"><div class="icon">☪</div><h3>Keislaman</h3><p class="muted">Pembiasaan ibadah, Al-Qur'an, adab, dan akhlak dalam keseharian.</p></div><div class="card"><div class="icon">📚</div><h3>Akademik</h3><p class="muted">Pembelajaran aktif untuk mengembangkan literasi, numerasi, dan wawasan.</p></div><div class="card"><div class="icon">🏆</div><h3>Prestasi</h3><p class="muted">Mendorong bakat siswa melalui olahraga, seni, sains, dan kegiatan madrasah.</p></div></div>
+</div>
+</section>
+
+<section id="visi-misi">
+<div class="container split">
+<div class="visi"><h3>Visi</h3><p>Terwujudnya peserta didik yang religius, berilmu, berakhlak mulia, berprestasi, dan memiliki kepedulian terhadap lingkungan.</p><h3>Misi</h3><p>1. Menanamkan nilai keimanan dan ketakwaan.<br>2. Melaksanakan pembelajaran yang aktif dan bermakna.<br>3. Mengembangkan potensi dan prestasi siswa.<br>4. Membudayakan akhlak, disiplin, dan tanggung jawab.</p></div>
+<div><span class="eyebrow">NILAI MADRASAH</span><h2>Religius • Educatif • Ilmiah</h2><p class="muted">Tiga nilai utama menjadi semangat dalam kegiatan belajar, pembiasaan pagi, kegiatan keagamaan, pengembangan bakat, dan pelayanan pendidikan.</p></div>
+</div>
+</section>
+
+<section id="guru" class="about">
+<div class="container"><div class="section-head"><div><span class="eyebrow">SUMBER DAYA MANUSIA</span><h2>Guru & Tenaga Kependidikan</h2></div><p>Bagian ini siap diisi dengan data lengkap kepala madrasah, guru kelas, guru mata pelajaran, dan tenaga kependidikan.</p></div>
+<div class="grid-3">
+<div class="card teacher"><div class="avatar">K</div><div><h3>Kepala Madrasah</h3><p>Data nama dapat diperbarui</p></div></div>
+<div class="card teacher"><div class="avatar">G</div><div><h3>Guru Kelas & Mapel</h3><p>Data guru dapat diperbarui</p></div></div>
+<div class="card teacher"><div class="avatar">T</div><div><h3>Tenaga Kependidikan</h3><p>Data tendik dapat diperbarui</p></div></div>
+</div></div>
+</section>
+
+<section id="siswa">
+<div class="container"><div class="section-head"><div><span class="eyebrow">DATA PESERTA DIDIK</span><h2>Data Siswa</h2></div><p>Informasi publik ditampilkan secara agregat untuk menjaga privasi data pribadi peserta didik.</p></div>
+<div class="stats"><div class="stat"><b>6</b><span>Rombel / Tingkat</span></div><div class="stat"><b>—</b><span>Total Siswa</span></div><div class="stat"><b>—</b><span>Siswa Laki-laki</span></div><div class="stat"><b>—</b><span>Siswa Perempuan</span></div></div>
+</div>
+</section>
+
+<section id="galeri" class="about">
+<div class="container"><div class="section-head"><div><span class="eyebrow">DOKUMENTASI</span><h2>Galeri Kegiatan</h2></div><p>Tempat untuk menampilkan foto kegiatan madrasah, pembiasaan pagi, pembelajaran, olahraga, seni, dan prestasi siswa.</p></div>
+<div class="gallery"><div class="photo"><span>Pembiasaan Pagi</span></div><div class="photo"><span>Pembelajaran di Kelas</span></div><div class="photo"><span>Prestasi Siswa</span></div><div class="photo"><span>Kegiatan Madrasah</span></div></div>
+</div>
+</section>
+
+<section id="berita">
+<div class="container"><div class="section-head"><div><span class="eyebrow">INFORMASI TERBARU</span><h2>Berita & Kegiatan</h2></div><p>Ruang publikasi agenda, pengumuman, prestasi, dan aktivitas terbaru MI Fitrah Insani.</p></div>
+<div class="news">
+<article class="card"><div class="date">KEGIATAN MADRASAH</div><h3>Pembiasaan Shalat Dhuha & Surah Al-Waqiah</h3><p>Kegiatan pembiasaan pagi sebagai bagian dari penguatan karakter religius peserta didik.</p></article>
+<article class="card"><div class="date">PRESTASI</div><h3>Siswa-Siswi Terbaik MI Fitrah Insani</h3><p>Apresiasi untuk siswa yang terus berjuang mengembangkan potensi dan meraih prestasi.</p></article>
+<article class="card"><div class="date">PENGUMUMAN</div><h3>Informasi PPDB MI Fitrah Insani</h3><p>Informasi penerimaan peserta didik baru akan diperbarui melalui halaman PPDB.</p></article>
+</div></div>
+</section>
+
+<section id="ppdb" class="ppdb">
+<div class="container ppdb-box"><div><span class="eyebrow">PENERIMAAN PESERTA DIDIK BARU</span><h2>PPDB MI Fitrah Insani</h2><p>Siapkan putra-putri untuk tumbuh dalam lingkungan pendidikan yang religius, edukatif, dan ilmiah.</p></div><a class="btn" href="#kontak">Hubungi Madrasah →</a></div>
+</section>
+
+<section id="download">
+<div class="container"><div class="section-head"><div><span class="eyebrow">PUSAT DOKUMEN</span><h2>Download</h2></div><p>Tambahkan formulir, brosur PPDB, kalender pendidikan, surat edaran, dan dokumen madrasah yang dapat diunduh.</p></div>
+<div class="downloads">
+<div class="download"><div><b>Brosur PPDB</b><small>Tambahkan file PDF brosur</small></div><a href="#" onclick="alert('File belum ditambahkan.');return false">Unduh</a></div>
+<div class="download"><div><b>Formulir PPDB</b><small>Tambahkan file formulir</small></div><a href="#" onclick="alert('File belum ditambahkan.');return false">Unduh</a></div>
+<div class="download"><div><b>Kalender Pendidikan</b><small>Tambahkan dokumen kalender</small></div><a href="#" onclick="alert('File belum ditambahkan.');return false">Unduh</a></div>
+<div class="download"><div><b>Pengumuman Madrasah</b><small>Tambahkan surat/pengumuman</small></div><a href="#" onclick="alert('File belum ditambahkan.');return false">Unduh</a></div>
+</div></div>
+</section>
+
+<section id="kontak" class="about">
+<div class="container"><div class="section-head"><div><span class="eyebrow">HUBUNGI KAMI</span><h2>Kontak MI Fitrah Insani</h2></div><p>Silakan lengkapi nomor WhatsApp dan alamat resmi madrasah pada bagian ini.</p></div>
+<div class="contact">
+<div class="contact-card"><div class="contact-row"><div class="icon">📍</div><div><b>Alamat</b><span>MI Fitrah Insani Leles, Kabupaten Garut, Jawa Barat</span></div></div><div class="contact-row"><div class="icon">📱</div><div><b>WhatsApp</b><span>Nomor WhatsApp sekolah belum diatur</span></div></div></div>
+<div class="contact-card"><div class="contact-row"><div class="icon">◎</div><div><b>Instagram</b><span><a class="social" href="https://instagram.com/mi.fitrahinsanileles" target="_blank" rel="noopener">@mi.fitrahinsanileles</a></span></div></div><div class="contact-row"><div class="icon">✉</div><div><b>Email</b><span>Tambahkan email resmi madrasah</span></div></div></div>
+</div></div>
+</section>
+</main>
+<footer><div class="container"><div class="foot"><div><strong>MI FITRAH INSANI</strong><p>Religius, Educatif, Ilmiah.<br>Website madrasah berbasis GitHub Pages.</p></div><div><a class="social" href="#home">Kembali ke atas ↑</a></div></div><div class="copyright">© 2026 MI Fitrah Insani. Semua hak dilindungi.</div></div></footer>
+<script>
+document.querySelectorAll('.menu a').forEach(a=>a.addEventListener('click',()=>document.querySelector('.menu').classList.remove('open')));
+</script>
+</body>
+</html>
